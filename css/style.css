@@ -1,0 +1,32 @@
+body{
+    background-image: url(../img/bashar.jpg);
+    margin: 0px;
+    padding: opx;
+}
+h1{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    height:420px;
+    box-sizing: border-box;
+
+}
+input [type="text"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 50px;
+    color: white;
+    font-size: 16px;
+
+
+}
